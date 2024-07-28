@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "myBool",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "bool",
+						"name": "_inputBool",
+						"type": "bool"
+					}
+				],
+				"name": "myFunc",
+				"outputs": [],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"bool-int-.sol": "Demo"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"bool-int-.sol": {
+			"keccak256": "0xbd23a611fffe12895689b1ae29a3bb1bedf2788a7f4995cbfe2c1e633ce5354d",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://589c62837e662674035878522539354cb3fd71ec2d737f38bb239fc263f4afd3",
+				"dweb:/ipfs/QmemMB8sSdZSG1u28LDLTpGx3KHijvZpBQ3NtZRB9nRZXB"
+			]
+		}
+	},
+	"version": 1
+}
